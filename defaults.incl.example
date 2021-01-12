@@ -1,0 +1,14 @@
+APP_TOKEN="agtmisyf7suzacm88eqy1yva8g1xmh"
+USER_TOKEN="ubxxhh1jgxpyi1x1ah8og2bsivt6sx"
+
+CRYPTOS=(
+	"ETH"
+	"BTC"
+	"XRP"
+)
+
+BUYPRICES=(
+	"700"
+	"28000"
+	"0.18"
+)
