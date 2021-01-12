@@ -1,0 +1,14 @@
+APP_TOKEN="XXXXXX"
+USER_TOKEN="XXXXXX"
+
+CRYPTOS=(
+	"ETH"
+	"BTC"
+	"XRP"
+)
+
+BUYPRICES=(
+	"700"
+	"28000"
+	"0.18"
+)

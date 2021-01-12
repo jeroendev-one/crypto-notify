@@ -15,6 +15,13 @@ BUYPRICES=(
 	"0.18"
 )
 
+if [[ -f "defaults.incl" ]]
+	then
+	    . defaults.incl
+	else
+	    echo "ERROR: Copy defaults.incl.example to defaults.incl"
+fi
+
 function notify {
 	wget https://api.pushover.net/1/messages.json --post-data="token=$APP_TOKEN&user=$USER_TOKEN&message=$MESSAGE&title=$TITLE" -qO- > /dev/null 2>&1 &
 }
